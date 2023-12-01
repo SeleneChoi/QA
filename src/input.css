@@ -1,10 +1,9 @@
-/* Tailwind CSS styles */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Your additional custom styles go here */
+/* Add custom css here */
+
 body{
-    /* TO TEST IF YOUR HTML is connected to input.css correctly */
     /* background-color: red; */
 }
