@@ -21,6 +21,7 @@
 body{
     font-family: var(--Roboto);
     font-size: 18px;
+    color: white;
 }
 
 header{
@@ -30,7 +31,7 @@ header{
 
 /* nav */
 nav{
-    max-width: 75rem;
+    max-width: 100rem;
     margin: 0 auto;
     height: 95px;
 
@@ -48,12 +49,74 @@ ul{
     gap: 27px;
 }
 
-
 .navButton{
     background-color: var(--orange);
   
     width: 149px;
     padding: 6px 0px 6px 0px;
     border-radius: 5px;
+
+}
+
+
+/* Typography */
+
+h1, h2{
+    font-family: var(--Poppins);
+}
+
+h1{
+    font-size: 44px;    
+}
+
+h2{
+    font-size: 23px;
+    color: var(--orange);
+}
+
+.first{
+    color: white;
+}
+
+.second{
+    color: var(--orange);
+}
+
+
+/*  buttons */
+.button-main{
+    background-color: var(--orange);
+
+    width: 363px;
+    height: 37px;
+    margin-top: 29px;
+    border-radius: 5px;  
+}
+
+
+
+
+/**
+PAGES ARE DIVIDED AND ORGANIZED IN ORDER BELOW FOR EASY NAVIGATION FOR DEVELOPERS
+*/
+
+
+
+/* home intro */
+.home-intro{
+    background-color: var(--purple1);
+    height: 463px;
+    display: flex;
+}
+
+/* home content */
+.home-content{
+    background-color: var(--purple2);
+    height: 786px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
