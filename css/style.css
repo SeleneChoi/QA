@@ -1,3 +1,59 @@
+/* Root styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+:root {
+
+    /* typography */
+    --Poppins : "Poppins", sans-serif;
+    --Roboto: "Roboto", sans-serif;
+
+    /* color */
+    --orange: #FC614C;
+    --purple1: #311E26;
+    --purple2: #3F1D2A;
+    --beige: #F4E1E1;
+}
+
+
+
 body{
-    /* background-color: red; */
+    font-family: var(--Roboto);
+    font-size: 18px;
+}
+
+header{
+    background-color: var(--purple2);
+
+}
+
+/* nav */
+nav{
+    max-width: 75rem;
+    margin: 0 auto;
+    height: 95px;
+
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+
+.navButton{
+    background-color: var(--orange);
+  
+    width: 149px;
+    padding: 6px 0px 6px 0px;
+    border-radius: 5px;
+
 }
