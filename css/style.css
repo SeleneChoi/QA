@@ -21,7 +21,7 @@
 body{
     font-family: var(--Roboto);
     font-size: 18px;
-    color: white;
+    color: var(--beige);
 }
 
 header{
@@ -75,7 +75,7 @@ h2{
 }
 
 .first{
-    color: white;
+    color: var(--beige);
 }
 
 .second{
@@ -125,3 +125,12 @@ PAGES ARE DIVIDED AND ORGANIZED IN ORDER BELOW FOR EASY NAVIGATION FOR DEVELOPER
 
 
 /* SELENE's PART below */
+.purple1{
+    background-color: var(--purple1);
+}
+.purple2{
+    background-color: var(--purple2);
+}
+.poppins{
+    font-family: var(--Poppins);
+}
