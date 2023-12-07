@@ -86,3 +86,8 @@ h1, h2{
     border-radius: 5px;  
 }
 
+/* SELENE's PART below */
+
+.poppins{
+    font-family: var(--Poppins);
+}
