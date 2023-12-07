@@ -17,16 +17,14 @@
 }
 
 
-
 body{
     font-family: var(--Roboto);
     font-size: 18px;
-    color: white;
+    color: var(--beige);
 }
 
 header{
     background-color: var(--purple2);
-
 }
 
 /* nav */
@@ -35,12 +33,11 @@ nav{
     margin: 0 auto;
     height: 95px;
 
-    color: white;
+    color: var(--beige);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 ul{
@@ -55,9 +52,7 @@ ul{
     width: 149px;
     padding: 6px 0px 6px 0px;
     border-radius: 5px;
-
 }
-
 
 /* Typography */
 
@@ -65,58 +60,29 @@ h1, h2{
     font-family: var(--Poppins);
 }
 
-h1{
-    font-size: 44px;    
+.beige{
+    color: var(--beige);
 }
 
-h2{
-    font-size: 23px;
+.orange{
     color: var(--orange);
 }
 
-.first{
-    color: white;
+.purple1{
+    background-color: var(--purple1);
 }
 
-.second{
-    color: var(--orange);
+.purple2{
+    background-color: var(--purple2);
 }
-
 
 /*  buttons */
 .button-main{
     background-color: var(--orange);
 
-    width: 363px;
+    width: 360px;
     height: 37px;
     margin-top: 29px;
     border-radius: 5px;  
 }
 
-
-
-
-/**
-PAGES ARE DIVIDED AND ORGANIZED IN ORDER BELOW FOR EASY NAVIGATION FOR DEVELOPERS
-*/
-
-
-
-/* home intro */
-.home-intro{
-    background-color: var(--purple1);
-    height: 463px;
-    display: flex;
-}
-
-/* home content */
-.home-content{
-    background-color: var(--purple2);
-    height: 786px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
