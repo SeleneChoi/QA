@@ -26,7 +26,7 @@
                 
                     <h1 class = " lg:pb-10 pb-4">
                         <span class = "text-xl lg:text-5xl beige">Take a </span> 
-                        <span class="text-xl lg:text-5xl orange">Media Block :D</span>
+                        <span class="text-xl lg:text-5xl orange">Media Brick :D</span>
                     </h1>
 
                     <div>
