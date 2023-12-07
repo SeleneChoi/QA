@@ -11,10 +11,8 @@
 </head>
 
 <body>
-    <!-- ADD HEADER FROM JOHANN's -->
-    <header>
-    </header>
-
+    <?php include'partial/header.php'?>
+    
     <main id="top">
         <div class="purple1">
             <h1 class="poppins font-bold second text-3xl text-center py-16 lg:py-32">Meet the Team</h1>
@@ -95,40 +93,7 @@
             </div>
         </div>
     </main>
-
-    <footer>
-        <div class="purple1 grid grid-cols-2 lg:grid-cols-12 gap-6 px-5 lg:px-7">
-            <div class="col-span-full lg:col-start-5 lg:col-span-4 my-10">
-                <h2 class="poppins second text-lg lg:text-2xl font-bold lg:font-semibold text-center mb-5">Join Event
-                </h2>
-                <p class="text-sm lg:text-lg font-light">Register now for a future of connections and success in New
-                    Media!</p>
-                <div class="flex flex-col my-4">
-                    <p class="text-sm lg:text-lg">Email:</p>
-                    <input
-                        class="purple1 text-sm lg:text-lg font-light italic border-solid border-white border rounded text-center p-1 mb-2"
-                        type="text" placeholder="Your Email">
-                    <p class="text-sm lg:text-lg">LinkedIn:</p>
-                    <input
-                        class="purple1 text-sm lg:text-lg font-light italic border-solid border-white border rounded text-center p-1"
-                        type="text" placeholder="Your LinkedIn url (optional)">
-                    <input class="text-sm lg:text-lg bg-orange-700 rounded mt-8 py-2 " type="submit" value="Register">
-                </div>
-                <div class="second text-center my-8">
-                    <h3 class="poppins">Let's Connect!</h3>
-                    <div class=" flex justify-center gap-6 mt-3">
-                        <a href=""><i class="text-3xl fa-brands fa-linkedin"></i></a>
-                        <a href=""><i class="text-3xl fa-brands fa-discord"></i></a>
-                        <a href=""><i class="text-3xl fa-solid fa-envelope"></i></a>
-                    </div>
-                </div>
-                <p class="text-sm lg:text-lg font-light text-center">Copyright &copy; Event 2023</p>
-                <a id="arrow_top" class="second fixed bottom-5 right-5" href="#top"><i
-                        class="text-5xl fa-solid fa-circle-arrow-up"></i></a>
-
-            </div>
-        </div>
-    </footer>
+    <?php include'partial/footer.php'?>
 </body>
 
 </html>

@@ -11,25 +11,28 @@
 </head>
 
 <body>
-    <!-- ADD HEADER FROM JOHANN's -->
-    <header>
-    </header>
+    <?php include'partial/header.php'?>
 
     <main id="top">
-        <!-- MAIN CONTAINER -->
+        
         <div>
 
             <!-- CONTAINER 1 -->
             <div class="purple1 grid grid-cols-2 lg:grid-cols-12 gap-6 p-5 py-16">
                 <h1 class="col-span-full poppins font-bold second text-xl lg:text-3xl text-center">Our Speakers
                 </h1>
-                <p class="col-span-full lg:col-start-2 lg:col-span-10 my-4 text-sm leading-6 lg:text-lg">Our team curated a dynamic panel of industry professionals to share invaluable career insights and experiences in an enlightening discussion. Join us for an engaging session, where you'll have the opportunity to interact directly with these experts and gain practical advice for advancing your own career journey.</p>
+                <p class="col-span-full lg:col-start-2 lg:col-span-10 my-4 text-sm leading-6 lg:text-lg">Our team
+                    curated a dynamic panel of industry professionals to share invaluable career insights and
+                    experiences in an enlightening discussion. Join us for an engaging session, where you'll have the
+                    opportunity to interact directly with these experts and gain practical advice for advancing your own
+                    career journey.</p>
                 <div class="col-span-full lg:col-start-4 lg:col-span-3">
                     <img class="w-4/4 rounded" src="./images/guest/guest1.png" alt="guest speaker 1">
                     <div class="mt-7">
                         <h3 class="poppins second font-semibold text-lg lg;text-2xl">Sarah Thompson</h3>
                         <h4 class="second font-light text-sm lg:text-lg mb-3">Web Developer</h4>
-                        <p class="text-sm leading-6 lg:text-lg lg:w-2/3">Sarah Thompson, a skilled software engineer, excels in machine learning and full-stack development.
+                        <p class="text-sm leading-6 lg:text-lg lg:w-2/3">Sarah Thompson, a skilled software engineer,
+                            excels in machine learning and full-stack development.
 
                         </p>
                     </div>
@@ -39,7 +42,8 @@
                     <div class="mt-7">
                         <h3 class="poppins second font-semibold text-lg lg;text-2xl">Alex Rodriguez</h3>
                         <h4 class="second font-light text-sm lg:text-lg mb-3">UX /UI Designer</h4>
-                        <p class="text-sm leading-6 lg:text-lg lg:w-2/3">Alex Rodriguez, a creative force in UX/UI design, crafts award-winning projects for optimal user engagement.
+                        <p class="text-sm leading-6 lg:text-lg lg:w-2/3">Alex Rodriguez, a creative force in UX/UI
+                            design, crafts award-winning projects for optimal user engagement.
                         </p>
                     </div>
                 </div>
@@ -48,8 +52,11 @@
 
         <!-- CONTAINER 2 -->
         <div class="purple2 grid grid-cols-2 lg:grid-cols-12 gap-6 p-5 py-10">
-            <h1 class="second col-span-full poppins font-bold second text-xl lg:text-3xl text-center">Guest Speakers</h1>
-            <p class="col-span-full lg:col-start-2 lg:col-span-10 text-center text-sm leading-6 lg:text-lg my-6">Elevate your knowledge with industry experts! Join our speaker series for insights from cutting-edge developers and visionary designers.
+            <h1 class="second col-span-full poppins font-bold second text-xl lg:text-3xl text-center">Guest Speakers
+            </h1>
+            <p class="col-span-full lg:col-start-2 lg:col-span-10 text-center text-sm leading-6 lg:text-lg my-6">Elevate
+                your knowledge with industry experts! Join our speaker series for insights from cutting-edge developers
+                and visionary designers.
             </p>
             <div class="col-span-1 lg:col-start-3 lg:col-span-2">
                 <img class="rounded" src="./images/guest/alumni1.png" alt="alumni1">
@@ -87,40 +94,7 @@
 
         </div>
     </main>
-
-    <footer>
-        <div class="purple1 grid grid-cols-2 lg:grid-cols-12 gap-6 px-5 lg:px-7">
-            <div class="col-span-full lg:col-start-5 lg:col-span-4 my-10">
-                <h2 class="poppins second text-lg lg:text-2xl font-bold lg:font-semibold text-center mb-5">Join Event
-                </h2>
-                <p class="text-sm lg:text-lg font-light">Register now for a future of connections and success in New
-                    Media!</p>
-                <div class="flex flex-col my-4">
-                    <p class="text-sm lg:text-lg">Email:</p>
-                    <input
-                        class="purple1 text-sm lg:text-lg font-light italic border-solid border-white border rounded text-center p-1 mb-2"
-                        type="text" placeholder="Your Email">
-                    <p class="text-sm lg:text-lg">LinkedIn:</p>
-                    <input
-                        class="purple1 text-sm lg:text-lg font-light italic border-solid border-white border rounded text-center p-1"
-                        type="text" placeholder="Your LinkedIn url (optional)">
-                    <input class="text-sm lg:text-lg bg-orange-700 rounded mt-8 py-2 " type="submit" value="Register">
-                </div>
-                <div class="second text-center my-8">
-                    <h3 class="poppins">Let's Connect!</h3>
-                    <div class=" flex justify-center gap-6 mt-3">
-                        <a href=""><i class="text-3xl fa-brands fa-linkedin"></i></a>
-                        <a href=""><i class="text-3xl fa-brands fa-discord"></i></a>
-                        <a href=""><i class="text-3xl fa-solid fa-envelope"></i></a>
-                    </div>
-                </div>
-                <p class="text-sm lg:text-lg font-light text-center">Copyright &copy; Event 2023</p>
-                <a id="arrow_top" class="second fixed bottom-5 right-5" href="#top"><i
-                        class="text-5xl fa-solid fa-circle-arrow-up"></i></a>
-
-            </div>
-        </div>
-    </footer>
+    <?php include'partial/footer.php'?>
 </body>
 
 </html>
