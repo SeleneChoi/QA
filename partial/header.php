@@ -21,10 +21,10 @@
 
                 <ul>
                     <li><button class="navButton">Join Event</button></li>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="EventDetails.html">Event Details</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="EventDetails.php">Event Details</a></li>
                     <li><a href="OurSpeakers.php">Our Speakers</a></li>
-                    <li><a href="#">Our Team</a></li>
+                    <li><a href="OurTeam.php">Our Team</a></li>
                 </ul>
                   
             </div>
