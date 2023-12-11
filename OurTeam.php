@@ -15,7 +15,7 @@
     
     <main id="top">
         <div class="purple1">
-            <h1 class="poppins font-bold second text-3xl text-center py-16 lg:py-32">Meet the Team</h1>
+            <h1 class="poppins font-bold orange text-3xl text-center py-16 lg:py-32">Meet the Team</h1>
             <div class="purple2 grid grid-cols-2 lg:grid-cols-12 gap-6 p-5 py-10 lg:p-6">
                 <div class="col-span-full lg:col-span-4 flex flex-col">
                     <img class="mb-2 rounded" src="./images/profile/julie_profile.png" alt="person1">
@@ -24,7 +24,7 @@
                             <h3 class="poppins text-lg lg:text-2xl">Julie Chan</h3>
                             <h4 class="text-sm lg:text-lg">Event Organizer</h4>
                         </div>
-                        <div class="second p-3 p-3">
+                        <div class="orange p-3 p-3">
                             <a class="" href=""><i class="text-3xl lg:text-4xl fa-brands fa-linkedin"></i></a>
                         </div>
                     </div>
@@ -36,7 +36,7 @@
                             <h3 class="poppins text-lg lg:text-2xl">Hoi Wing Henry Cheung</h3>
                             <h4 class="text-sm lg:text-lg">Event Organizer</h4>
                         </div>
-                        <div class="second p-3">
+                        <div class="orange p-3">
                             <a href=""><i class="text-3xl lg:text-4xl fa-brands fa-linkedin"></i></a>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
                             <h3 class="poppins text-lg lg:text-2xl">Selene Choi</h3>
                             <h4 class="text-sm lg:text-lg">Event Organizer</h4>
                         </div>
-                        <div class="second p-3">
+                        <div class="orange p-3">
                             <a href=""><i class="text-3xl lg:text-4xl fa-brands fa-linkedin"></i></a>
                         </div>
                     </div>
@@ -60,7 +60,7 @@
                             <h3 class="poppins text-lg lg:text-2xl">Johann Duque</h3>
                             <h4 class="text-sm lg:text-lg">Event Organizer</h4>
                         </div>
-                        <div class="second p-3">
+                        <div class="orange p-3">
                             <a href=""><i class="text-3xl lg:text-4xl fa-brands fa-linkedin"></i></a>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                             <h3 class="poppins text-lg lg:text-2xl">Christine Lee</h3>
                             <h4 class="text-sm lg:text-lg">Event Organizer</h4>
                         </div>
-                        <div class="second p-3">
+                        <div class="orange p-3">
                             <a href=""><i class="text-3xl lg:text-4xl fa-brands fa-linkedin"></i></a>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                             <h3 class="poppins text-lg lg:text-2xl">Nicola Lee</h3>
                             <h4 class="text-sm lg:text-lg">Event Organizer</h4>
                         </div>
-                        <div class="second p-3">
+                        <div class="orange p-3">
                             <a href=""><i class="text-3xl lg:text-4xl fa-brands fa-linkedin"></i></a>
                         </div>
                     </div>

@@ -20,7 +20,7 @@
                 </div>
 
                 <ul>
-                    <li><button class="navButton">Join Event</button></li>
+                    <li><a href="#registration"><button class="navButton">Join Event</button></a></li>
                     <li><a href="index.php">Home</a></li>
                     <li><a href="EventDetails.php">Event Details</a></li>
                     <li><a href="OurSpeakers.php">Our Speakers</a></li>

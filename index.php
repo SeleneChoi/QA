@@ -6,7 +6,6 @@
     <title>Home Page</title>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <script src="https://cdn.tailwindcss.com"></script>
@@ -37,7 +36,7 @@
                             <br>
                             <i>February 20,2024</i>
                             <br>
-                            <button class = "button-main mt-7 w-4/4  ">Join Event</button>
+                            <a href="#registration"><button class = "button-main mt-7 w-4/4  ">Join Event</button></a>
                         </div>
                     </div>
                 </div>
