@@ -18,14 +18,11 @@
                 <input id="submitBtn" class="text-sm lg:text-lg bg-orange-700 rounded mt-8 mb-4 py-2 " type="submit"
                     value="Register">
                 <?php
-                // Database connection parameters
-                $servername = "localhost";
-                $username = "root";
-                $password = "root";
-                $dbname = "registerdatabase";
+
+                include 'config.php';
 
                 // Create connection
-                $conn = new mysqli($servername, $username, $password, $dbname);
+                $conn = new mysqli($db_config['hostname'], $db_config['username'], $db_config['password'], $db_config['database']);
 
                 // Check connection
                 if ($conn->connect_error) {
