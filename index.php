@@ -36,20 +36,36 @@
                             <br>
                             <i>February 20,2024</i>
                             <br>
-                            <a href="#registration"><button class = "button-main mt-7 w-4/4  ">Join Event</button></a>
+                            
+                            <div class="grid grid-cols-4 gap-5 lg:grid-cols-12">
+                                <div class="flex items-center col-span-full lg:col-span-full mx-auto lg:mx-0">
+                                    <a href="#registration">
+                                        <button class="button-main text-sm lg:text-lg  rounded mt-8 mb-4 py-2 px-24 lg:px-40">Join Event</button>
+                                    </a>
+                                </div>
+                            </div>
+
+
+                           
                         </div>
                     </div>
                 </div>
-                
 
-                <div class="col-span-full lg:col-start-7 lg:col-span-5">
+           
+                <div class="col-span-full lg:col-start-7 lg:col-span-5 hidden lg:block">
                     <img src="images/homepgimg1.png" class="w-4/4" alt="">
                 </div>
             </div>
 
 
             <div class="purple2 grid grid-cols-2 lg:grid-cols-12 justify-center items-center w-full gap-8 py-10 lg:py-14  px-5">
-                <div class="col-span-full lg:col-start-2 lg:col-span-5">
+
+                <div class="col-span-full lg:hidden">
+                    <img src="images/homepgimg1.png" class="w-4/4" alt="">
+                </div>
+
+                
+                <div class="col-span-full lg:col-start-2 lg:col-span-5 hidden lg:block">
                     <img src="images/homepgimg2.png" alt="">
                 </div>
 
@@ -57,10 +73,16 @@
                     <h2 class = "text-lg lg:text-2xl orange mb-5 lg:mb-5">Vision</h2>
                     <p class = "text-sm lg:text-lg leading-8 font-light">What would life after New Media look like? Where could I, a student of New Media, be after I graduate? Imagine students being able to meet their “future-selves” by bringing former alumni’s of New Media together. The event would bridge the gap between current students and industry experts who once were in their shoes. To connect, network, and build the New Media community beyond the downtown campus.</p>
                 </div>
+
+                <div class="col-span-full lg:col-start-2 lg:col-span-5 lg:hidden">
+                    <img src="images/homepgimg2.png" alt="">
+                </div>
             </div>
 
 
-            <div class="purple1 grid grid-cols-2 lg:grid-cols-12 justify-center items-center w-full gap-8 py-10 lg:py-14  px-5">
+            <div class="purple2 grid grid-cols-2 lg:grid-cols-12 justify-center items-center w-full gap-8 py-0 lg:py-14  px-5">
+
+
                 <div class="col-span-full lg:col-start-2 lg:col-span-5">
                     <h2 class = "text-lg lg:text-2xl orange mb-5 lg:mb-5">Mission</h2>
                     <p class = "text-sm lg:text-lg leading-8 font-light">Since the end of the pandemic, the scarcity of opportunities is increasingly disheartening for current New Media students. Juggling the program full-time courses, endless portfolio preparation, the pursuit of opportunities beyond their academic commitments has proven to be overwhelming. We hope to bring the opportunities to the students in hopes to give support, confidence, and excitement in their career journeys.</p>

@@ -54,10 +54,7 @@ h1, h2{
 .button-main{
     background-color: var(--orange);
 
-    width: 360px;
-    height: 37px;
-    margin-top: 29px;
-    border-radius: 5px;  
+  
 }
 
 /* SELENE's PART below */
@@ -150,11 +147,14 @@ ul{
         display: block;
     }
 
+ 
+    
+
     .menu-container {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 90px;
+        top: 95px;
         right: 0;
         background-color: var(--purple2);
         width: 100%;
@@ -169,6 +169,12 @@ ul{
         align-items: center;
         padding: 20px;
     }
+
+    .menu .navButton { order: 5; }
+    .menu :nth-child(2) { order: 1; }
+    .menu :nth-child(3) { order: 2; }
+    .menu :nth-child(4) { order: 3; }
+    .menu :nth-child(5) { order: 4; }
 
     .menu li {
         margin: 10px 0;
