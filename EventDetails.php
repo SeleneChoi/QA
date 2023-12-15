@@ -106,6 +106,7 @@
                 </div>
                
                 <div> 
+                    
 
                 <div class="purple1 grid grid-cols-2 lg:grid-cols-12 w-full gap-8 py-5 lg:py-14 px-5 lg:px-8 justify-center items-center">
 
@@ -128,7 +129,7 @@
 
                 <div class="purple2 grid grid-cols-2 lg:grid-cols-12 w-full  gap-8 py-5 lg:py-14 px-5 lg:px-8 justify-center items-center">                            
                     <div class="col-span-full lg:col-start-2 lg:col-span-5">
-                        <img src="images/eventdetailsimg2.png" alt="">
+                        <img src="images/eventdetailsimg3.png" alt="">
                     </div>
 
                     <div class="col-span-full lg:col-start-7 lg:col-span-5">
@@ -143,7 +144,7 @@
                 <div class="purple1 grid grid-cols-2 lg:grid-cols-12 w-full  gap-8 py-5 lg:py-14 px-5   lg:px-8 justify-center items-center">  
 
                     <div class="col-span-full lg:hidden">
-                        <img src="images/eventdetailsimg3.png" alt="">
+                        <img src="images/eventdetailsimg2.png" alt="">
                     </div>
 
                     <div class=" col-span-full lg:col-start-2 lg:col-span-5">
@@ -154,7 +155,7 @@
 
 
                     <div class="col-span-full lg:col-start-7 lg:col-span-5 hidden lg:block">
-                        <img src="images/eventdetailsimg3.png" alt="">
+                        <img src="images/eventdetailsimg2.png" alt="">
                     </div>
                 </div>
 

@@ -28,6 +28,11 @@ header{
 }
 
 
+
+
+
+
+
 /* Typography */
 
 h1, h2{
@@ -53,7 +58,6 @@ h1, h2{
 /*  buttons */
 .button-main{
     background-color: var(--orange);
-
   
 }
 
@@ -141,14 +145,99 @@ ul{
     margin: 0 0px;
 }
 
+@media(max-width: 724px) {
+
+    #nav-icon {
+        width: 60px;
+        height: 25px;
+        position: relative;
+        margin: 0px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+    }
+    
+    #nav-icon span {
+        display: block;
+        position: absolute;
+        height: 5px;
+        width: 70%;
+        background: white;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+
+    #nav-icon span:nth-child(1) {
+    top: 0px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+    }
+
+    #nav-icon span:nth-child(2) {
+    top: 10px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+    }
+
+    #nav-icon span:nth-child(3) {
+    top: 20px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+    }
+
+    #nav-icon.open span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 0px;
+    left: 4px;
+    }
+
+    #nav-icon.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+    top: 10px;
+    }
+
+    #nav-icon.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 29px;
+    left: 6px;
+    }
+
+}
+
+
 /* Responsive styles */
-@media (max-width: 767px) {
+@media (max-width: 725px) {
     .hamburger {
         display: block;
     }
-
- 
-    
 
     .menu-container {
         display: none;
